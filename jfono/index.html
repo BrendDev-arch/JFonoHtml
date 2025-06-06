@@ -1,24 +1,30 @@
-<!DOCTYPE html> <!-- define oo documento--> 
-<html lang="pt-br"> <!-- define o idioma-->
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8"> <!-- robô Google CEO --> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- responsivo-->
-    <title>JFono</title> <!-- definindo o título-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JFono</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="menu">
+        <ul> <!---- não numerada-->
+            <li><a onclick = "carregarConteúdo('inicio')" href="#">Ínicio</a></li>
+            <li><a onclick = "carregarConteúdo('Clínica')" href="#">Clínica</a></li>
+            <li><a onclick = "carregarConteúdo('Exercícios')" href="#">Exercícios</a></li>
+            <li><a onclick = "carregarConteúdo('Professores')" href="#">Professores</a></li>
+            <li><a onclick = "carregarConteúdo('Contato') "href="#">Contato</a></li>
+        </ul>
+    </div>
+    <div id= "conteúdo" class = "conteúdo"></div>
 
-    <!---  Entrada de dados  -->
-    <!---  Input -->
-    <form>
-        <input type = "number" id = "inid" disabled placeholder="ID"><br><br>
-        <input type = "text" id = "inNome" placeholder="Digíte o exercício">
-        <button type="submit">Mostrar</button><br><br>
-        <textarea id="message" name="message" rows="4" cols="50" placeholder="Descrição do som"></textarea><br><br>
-        <input type = "file">
-    </form>
+    <script src = "js/Design.js"></script>
+
+
+    <p class = "azul"> dajgnsdgkgnp</p>
+    <p class = " violeta">rgergrgergrg</p>
+    <p id = "verde">tehethhetrthtrhryh</p>
     
-    <script src="js/exercicios.js"></script>    
-
 </body>
 
 </html>
